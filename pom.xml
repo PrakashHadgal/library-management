@@ -120,7 +120,7 @@
                         <configuration>
                             <schemaVersion>v2</schemaVersion>
                             <resourceGroup>DefaultResourceGroup-EUS</resourceGroup>
-                            <appName>rest-service-1714653417453</appName>
+                            <appName>library-mgmt-service</appName>
                             <pricingTier>P1v2</pricingTier>
                             <region>centralus</region>
                             <runtime>
