@@ -3,9 +3,6 @@ package com.library.books.model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.library.books.entity.BookEntity;
 
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -22,15 +19,15 @@ public class BookModel {
 	@JsonProperty("bookId")
 	private Integer bookId;
 
-	@NotEmpty(message = "Atleast 3 character is required of the book name")
+//	@NotEmpty(message = "Atleast 3 character is required of the book name")
 	@JsonProperty("bookName")
 	private String bookName;
 
 	@JsonProperty("bookDescription")
 	private String bookDescription;
 
-	@NotNull
-	@Size(max = 10000000, min = 1)
+//	@NotNull
+//	@Size(max = 10000000, min = 1)
 	@JsonProperty("quantity")
 	private Integer quantity;
 

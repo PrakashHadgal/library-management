@@ -25,22 +25,22 @@ public class BookEntity {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	@JsonProperty("book_id")
+	@JsonProperty("bookId")
 	private Integer bookId;
 
-	@JsonProperty("book_name")
+	@JsonProperty("bookName")
 	private String bookName;
 
-	@JsonProperty("book_description")
+	@JsonProperty("bookDescription")
 	private String bookDescription;
 
-	@JsonProperty("book_quantity")
+	@JsonProperty("quantity")
 	private Integer quantity;
 
-	@JsonProperty("book_created_date")
+	@JsonProperty("createdDate")
 	private Long createdDate;
 
-	@JsonProperty("book_modified_date")
+	@JsonProperty("modifiedDate")
 	private Long modifiedDate;
 
 	public BookModel mapEntityToModel(BookEntity bookEntity) {
